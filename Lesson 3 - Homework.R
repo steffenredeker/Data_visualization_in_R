@@ -28,6 +28,7 @@ for (i in 1:length(countries)) {
        main = countries[i],
        xlab = "years",
        ylab = "%",
+       ylim = c(50, 90),
        type = "l")
 }
 
