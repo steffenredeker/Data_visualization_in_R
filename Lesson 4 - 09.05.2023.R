@@ -29,7 +29,7 @@ wage1[, c("wage", "educ", "exper")]
 
 wage1[1:5, c("wage", "wage_EUR")]
 
-# condition slection ----
+# condition selection ----
 
 wage1_15plus <- wage1[wage1$educ > 15,]
 
