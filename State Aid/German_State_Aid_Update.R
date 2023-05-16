@@ -38,7 +38,3 @@ legend("topright",
        lty = c(1, 1, 2), 
        cex = 0.8,
        bty = "n")
-
-# Problem ----
-# Median and regression line seem to refer to the whole data set, but not to the modified plot with monthly sum values.
-# However, when I change the data to "sum_by_year_month" it's not working either.
