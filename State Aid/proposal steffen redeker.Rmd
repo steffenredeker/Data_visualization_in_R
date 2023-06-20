@@ -1,0 +1,159 @@
+---
+title: '**The Risk of Value Extraction.**\vspace{-0.5cm}'
+author: "Steffen Redeker"
+output: pdf_document
+fontsize: 12pt
+linestretch: 1.5
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+\vspace{-0.5cm}
+To meet challenges like climate change, ambitious industrial strategies and close coordination between the public and private sectors are essential (Mazzucato, 2021). However, the relationship between the latter is not necessarily built on equal premises and interests. This is particularly true for publicly traded multinational enterprises, which are pressured to maximize shareholder value, even if that means exploiting legal gray areas, such as profit shifting. Consequently, government funds are in danger of ending up (at least indirectly) in tax havens or with shareholders. Thus, while the state tries to enable value creation, corporations might undermine this endeavor by extracting value from the economy.
+
+This research project aims to determine to what extent government funds are undermined by corporate value extraction. In other words, how much government funding are corporations receiving, and how much are the same corporations shifting to tax havens or shareholders? Moreover, what is the role of the state in this regard? To address the outlined issue, a mixed-method approach will be applied, whereby a critical political economy perspective will be combined with quantitative tax research. Furthermore, a novel firm-level database of government funds received and value extractions to tax havens and shareholders will be created. The focus of this project will be on Germany.
+
+## Research Topic 
+\vspace{-0.5cm}
+Germany’s corporate sector is not known for being among the most aggressive tax avoiders nor distributors to shareholders. Yet, particularly during the pandemic, there are indications that value extraction is a rapidly growing phenomenon (Sennholz-Weinhardt et al., 2021). This is interesting because historically, coordination between the public and private sector has been high, as reflected in the German economy as the prime example of a coordinated market economy in the Varieties of Capitalism (VoC) approach (Hall & Soskice, 2001). Streeck and Höpner (2003) add that German companies were always quasi-public institutions that had to serve a politically defined overall interest. Besides that, Germany’s economy was based on the theory of ordoliberalism, which called for a “constitutional framework, an ordo, within which market forces can operate freely” (Berghahn & Young, 2013, p. 8). Thus, the relationship between corporations and the state was based on a corporate sector that acted upon a stakeholder orientation (and a low level of value extraction), controlled by defined standards of the state, that, in turn, did not interfere in the market despite being in a market-fixing role.
+
+However, beginning no later than the 1990s, Germany developed a liberalizing tendency, following a global trend (Baccaro & Howell, 2017; Streeck, 2010), which meant moving slowly from a stakeholder to a shareholder orientation (Höpner, 2001; Vitols, 2001). Thus, Germany was at least partially moving away from the initial VoC categorization and its ordoliberal foundation. 
+When looking at industrial policy (value creation), Germany also moved from its ordoliberal past to a more market-shaping role. According to Kattel et al. (2020), this development is reflected in strategic initiatives such as the Nationale Industriestrategie 2030 and was further accelerated during the pandemic through an economic stimulus package (the so called “bazooka”). Moreover, the latter represented a vast extension in terms of corporate welfare (“various benefits and services that directly or indirectly meet the needs of businesses”) (Farnsworth, 2013, p.5). While this shift hardly fits former categorizations, Germany, or at least its coordination between the public and the private sector, can be placed within a different framework—the market co-creating and shaping framework developed by Laplane and Mazzucato (2020). According to this, the state not only plays a key role in value creation but also consciously shapes it. The framework draws on the risk-reward nexus (RRN) concept of Lazonick and Mazzucato (2013), which points out that industrial strategy, and thus, value creation, are at risk of being undermined by value extraction.
+
+In a broad definition from Strebel and Cantale (2014), value extraction refers to market distortions (lobbying, market power, and deception) that shift negative externalities onto society. This includes “taking advantage of differences between national regulations, like tax regimes” (Strebel & Cantale, 2014, p. 95) —in other words, tax avoidance. The RRN concept similarly defines value extraction but focuses on stock-based compensation and share buybacks, identifying shareholder value theory as a key driver of value extraction. Lazonick and O’Sullivan (2000) define this theory as maximizing short-term profits and distributions regardless of whether it takes place at the expense of the state, society, or environment.
+
+In many respects, a new strategic policy orientation of the German state collides with a corporate sector that has been increasingly liberalized since the 1990s. In other words, while the state is increasingly focused on strategic value creation, there is an increased risk of value extraction by corporations. But what do we know about the actual risk of value extraction, both in general and in the German context?
+
+In general, the risk of value extraction is exemplified best by the American Big Tech companies which have received massive financial support from states in the past but are continuously shifting billions to tax havens (e.g., CICTAR, 2022a; CICTAR, 2022b). While there has been plenty of research on how much profit ends up in tax havens (Álvarez-Martínez et al., 2022; Cobham & Janský, 2018; Tørsløv et al., 2022), these figures are barely connected to the amount of funding that corporations receive from states. Thus, it is largely unknown how much value corporations extract from the economy. A few exceptions that could be mentioned mostly analyze single companies (CICTAR, 2022a; CICTAR, 2022b) or consider only one form of state support, such as public-procurement contracts (Janský et al., 2022). 
+
+Even less is known about Germany’s situation. While the overall level of corporate tax avoidance (Tørsløv et al., 2019) and the involvement of German firms (Godar & Janský, 2020; Fuest et al., 2020; Kovermann & Wendt, 2019) have been analyzed, only a few single company studies such as Fresenius (CICTAR, 2020) analyze both government funds received and profits shifted to tax havens. Furthermore, Sennholz-Weinhardt et al. (2021) demonstrate that publicly traded German companies are increasingly driven by shareholder value. To provide some general numbers, Germany has spent up to €500 billion per year on procurement in recent years (OECD, 2019) and additionally provided a subsidy volume of €47.2 billion in 2022 (BMF, 2022), but lost 29% (about €72.6 billion) of its corporate tax revenue due to tax avoidance in 2019 (Tørsløv et al. 2022). In addition, German publicly-listed corporations distributed the highest amount in dividends of all time in 2022 (€69.7 billion) (Röhl, 2022). However, as of yet no country-wide analysis considers all types of government funding, profits booked in tax havens, and distributions made (dividends and share buybacks), especially not on a firm-level basis. This project aims to address this research gap by quantifying the amount of value extraction in Germany and the role of the government in this situation. To do so, several specific questions will be addressed:
+
+*To what extend are corporations undermining government funds by shifting value to tax havens or shareholders? Furthermore, what is the government’s role in this activity, and why is it not stricter on this issue?*
+
+## Research Approach
+\vspace{-0.5cm}
+The research questions will be addressed with a mixed-method approach (explanatory sequential design), combining a critical political economy perspective with quantitative tax research. By combining the two approaches, it will be possible to determine the level of value extraction, its effects, and the structural circumstances that have led to it. The project will be divided into three parts, which are outlined below.
+
+
+### Paper 1) Creation and descriptive evaluation of a novel firm-level database.
+\vspace{-0.5cm}
+The demonstrated literature gap is mirrored by a respective data gap. Addressing the latter, this part of the project will focus on creating a novel firm-level database. To do so, information on various government funds, profits in tax havens, and distributions will be gathered. So far, no database includes all of these variables. While the focus will be on Germany, data on all EU member states could be collected. 
+
+*Data on government funds.* Firm-level data on government funds can be found in EU databases. The State Aid Transparency Public Search database provides information on all government funds above €500,000 that have been made available to the corporate sector (differentiated by EU, country, and state levels). For Germany, the database contains 15,000 records that have been entered since 2016. For public procurement contracts, the opentender.eu database will be consulted. The database covers 576,932 cases in Germany entered since 2009. Both databases are available in a CSV file format.
+
+*Data on distributions (share buybacks and dividends).* This information can be found in the Orbis Bureau van Dijk database, which provides firm-level balance sheet data (CSV file format).
+
+*Data on tax avoidance.* There are various methods of determining profits booked in tax havens. On a country-level basis, it would be convenient to rely on the corporate tax avoidance data of Tørsløv et al. (2022). However, the most reliable firm-level data, public-country-by-country reporting data (PCbCR), will soon be available for EU member states, since corporations are obliged to conduct PCbCR reports by 2024 at the latest (following EU Directive 2021/2101). For earlier data, the annual reports of the respective corporations and their subsidiaries could be consulted (I used this approach before).
+Based on the collected data, several datasets would be conceivable. This project, however, will focus on German data from 2016 onwards (firm-level). Nevertheless, EU-wide datasets in different forms would be conceivable, too.
+The dataset will include the following variables: company name, sector, government funds received, public procurement contract values, profits/losses, dividends, share buybacks, taxes reported, taxes paid, profits booked in tax havens (by country), and the number of employees.
+
+Based on the database created, a descriptive statistical analysis will determine the extent of value extraction compared to government funds received. When collecting data on every member state, it may also be possible to determine group characteristics to establish the varieties of value extraction or at least to detect German peculiarities. 
+
+
+### Paper 2) An empirical analysis of value extraction. 
+\vspace{-0.5cm}
+This paper will provide a quantitative analysis to the developed dataset (part 1) on value extraction, testing several influences such as company size, differences between industries, and certain government funding programs. Methods like panel-data regression (fixed-effects) and difference-in-difference will be employed.
+
+To provide some examples of how the analysis might look, a potential research question could be: Does an increase in government funding lead to more value extraction, and can an association with certain government funding programs be established?
+The state-aid data makes it possible to trace back from which government funding program the transaction derives. To test whether government funding affected value extraction, a certain government funding program could be used as treatment and applying a difference-in-difference analysis. The treatment group would be the set of firms that received funding from the specific government funding program being examined. The control group would be the set of firms that did not receive funding from this program but were otherwise similar in terms of relevant characteristics and previous development, to ensure that the effect could be explained by the treatment. 
+
+Another research question could be: Does value extraction increase with company size? To answer this question, a panel-data regression (fixed-effects) could be applied. To address unobserved heterogeneity across firms, fixed effects such as time or sector, will be included. This will allow to control for any unobserved factors that may affect the relationship between company size and value extraction. The independent variable would be company size, which can be measured in different ways, e.g., profit, market capitalization, or the number of employees. The dependent variable would be value extraction. A set of control variables could be added, e.g., the number of subsidiaries in tax havens, and to isolate the effect on company size, a within variation could be applied.
+Additional questions that could be explored include: Does the reliance on physical production on site affect a company's ability to engage in value extraction (industry comparison)? Did the tremendous increase in government funding during the pandemic lead to a higher level of value extraction despite a looming recession?
+
+Depending on the results of paper 1), the German data could additionally be compared with other member states. 
+
+
+### Paper 3) Germany’s political economy and the issue of value extraction.
+\vspace{-0.5cm}
+This paper will provide a qualitative analysis of the question, “Why has the German government not attached stricter regulations to government funding in terms of value extraction?” A useful case for analyzing the decision-making mechanisms would be the financial aid packages given to corporations by various countries during the pandemic, in terms of significant differences in constraints. Germany’s major aid package, the “bazooka” (Köhler, 2021), was by far the most significant extension of corporate welfare in German history, but it did not provide any restrictions on tax avoidance, although the EU Commission (2020) recommended not providing financial support to companies that have links to tax havens.
+
+A “most-similar system design” could be applied, comparing Germany with another EU member state, such as Austria. This research design allows to shed light on the reasons why two very similar political systems produced different outcomes/legal restrictions in terms of value extraction. Like Germany, Austria can be considered a coordinated market economy. It is a member of the EU that also introduced a large financial aid package, had a center-coalition in government, and is a conservative welfare state (independent variables). However, despite these similarities, Austria decided to make state aid unavailable for corporations that use tax havens (dependent variable). 
+
+Potential competing hypotheses could be that the Keynesian learnings that led to the bazooka are limited to anticyclical fiscal policy; however, when it comes to regulative/interference in the market, ordoliberal concerns are still strong (idea-driven). Alternatively, due to the European balance of power, Germany can afford to resist EU recommendations, more so than Austria (power-driven).
+While both economies rely on an export-led growth model, Austria's current account surplus is driven by its service sector (Austrian Ministry for Digital and Economic Affairs, 2021), whereas Germany's is driven by the goods and commodities sector (Bundesbank, 2021). Another hypothesis (interest/power-driven) could, therefore, be that Germany's goods sector is more concentrated, with relatively more employees in fewer large corporations, and thus is more powerful than Austria's service sector. Thereby, Germany's export sector has been able to exert more influence on legislation. State aid, yes; restrictions (toward the free market or international competitiveness), no.
+
+To test these hypotheses, a process-tracing approach (explaining outcome) will be applied to both countries. Newspapers, government reports, and press releases will be analyzed and expert interviews with policymakers (government representatives and ministry officials) will be conducted.
+
+## Outlook
+\vspace{-0.5cm}
+The expected finding is the determination of the level of value extraction, the role of the government in this regard, and the structural circumstances of influence. The results will focus on Germany, but the analysis aims to identify the varieties of value extraction occurring within the EU that can be traced back to institutional path dependencies. For instance, the analysis will identify different monitoring or regulatory regimes in liberal or coordinated market economies that influence the degree of value extraction and the effective use of government funding. Determining the different degrees of value extraction will not only be significant for academia, but also for policy. Contextualizing and quantifying the issue will help to create more robust policies in terms of government funding to encourage stronger democratic accountability, but also ensuing fiscal capacity, thereby enabling the financing of ambitious climate change programs and the welfare state.
+							       
+word count: `r as.integer(sub("(\\d+).+$", "\\1", system(sprintf("wc -w %s", knitr::current_input()), intern = TRUE))) - 20`
+
+## Bibliography
+\vspace{-0.5cm}
+**Álvarez-Martínez, M. T., Barrios, S., d'Andria, D., Gesualdo, M., Nicodème, G., & Pycroft, J. (2022).** How large is the corporate tax base erosion and profit shifting? A general equilibrium approach. Economic Systems Research, 34(2), 167-198.
+
+**Austrian Ministry for Digital and Economic Affairs (2021). Österreichs Leistungsbilanz im Jahr 2020.** (revidierte Werte), Wien 2021. https://www.bmaw.gv.at/dam/jcr:09926377-e1eb-44a4-9413-b86a51d987aa/%C3%96sterreichische%20Leistungsbilanz%202020_revidiert.pdf (last accessed 01/11/2023).
+
+**Baccaro, L., & Howell, C. (2017).** Trajectories of neoliberal transformation: European industrial relations since the 1970s. Cambridge University Press.
+
+**Berghahn, V., & Young, B. (2013).** Reflections on Werner Bonefeld's ‘Freedom and the Strong State: On German Ordoliberalism'and the Continuing Importance of the Ideas of Ordoliberalism to Understand Germany's (Contested) Role in Resolving the Eurozone Crisis. New Political Economy, 18(5), 768-778.
+
+**Bohle, D., & Regan, A. (2022).** Global Capital and National Growth Models, in Blyth, M., Baccaro, L., & Pontusson, J. (2022). Diminishing Returns: The New Politics of Growth and Stagnation.
+
+**Braun, B. (2016).** “From Performativity to Political Economy: Index Investing, ETFs and Asset Manager Capitalism.” New Political Economy 21 (3): 257–73.
+
+**Bundesbank (2021).** Zahlungsbilanzstatistik. Aktualisierte Ausgabe. Statistische Fachreihe. https://www.bundesbank.de/resource/blob/805268/0597c1d6ae04993fa8e128fbc56ecece/mL/0-zahlungsbilanzstatistik-data.pdf (last accessed 01/11/2023).
+
+**Centre for International Corporate Tax Accountability and Research (2022a).** Gaming global taxes: new report exposes Microsoft’s web of tax avoidance.
+
+**Centre for International Corporate Tax Accountability and Research (2022b).** Amazon: The World’s Largest Company Is Subsidised By You.
+
+**Centre for International Corporate Tax Accountability and Research (2020).** FRESENIUS Failing to care: Global tax dodging by a German healthcare multinational.
+
+**Cobham, A., & Janský, P. (2018).** Global distribution of revenue loss from corporate tax avoidance: re‐estimation and country results. Journal of International Development, 30(2), 206-232.
+
+**EU Commission (2020).** State Aid: Commission recommends not granting financial support to companies with links to tax havens. Press release, 14 July 2020, Brussels.  https://ec.europa.eu/commission/presscorner/detail/en/ip_20_1332 (last accessed 01/11/2023).
+
+**Farnsworth, K. (2013).** Bringing corporate welfare in. Journal of Social Policy, 42(1), 1-22.
+
+**Federal Ministry of Finance (2022).** 28. Subventionsbericht des Bundes 2019 – 2022. Bericht der Bundesregierung über die Entwicklung der Finanzhilfen des Bundes.
+
+**Fichtner, J., Heemskerk, E.M., & Garcia-Bernardo, J. (2017).** “Hidden Power of the Big Three? Passive Index Funds, Re-Concentration of Corporate Ownership, and New Financial Risk.” Business and Politics 19 (2): 298–326.
+
+**Fuest, C., Hugger, F., Neumeier, F., Stöhlker, D. (2020).** Nationale Steueraufkommenswirkungen einer Neuverteilung von Besteuerungsrechten im Rahmen der grenzüberschreitenden Gewinnabgrenzung. June 2020. ifo Institut.
+
+**Godar, S., Janský, P. (2020).** Corporate profit misalignment: evidence from German headquarter companies and their foreign affiliates, Post-Communist Economies.
+
+**Hall, P. A., & Soskice, D. (2001).** An Introduction to Varieties of Capitalism.
+
+**Hassel, A. (2015).** The German model in transition. The German Model: Seen by its Neighbours. Social Europe, 105-13.
+
+**Höpner, M., & Krempel, L. (2004).** The politics of the German company network. Competition & Change, 8(4), 339-356.
+
+**Höpner, M., (2001).** “Corporate Governance in Transition: Ten Empirical Findings on Shareholder Value and Industrial Relations in Germany”, MPIfG Discussion Paper 01/5.
+
+**Janský, P., Palanský, M. & Skuhrovec, J. (2022).** Public Procurement and Tax Havens. SSRN. 
+
+**Kattel, R., Mazzucato, M., Haverkamp, K., & Ryan-Collins, J. (2020).** Industriestrategie der nächsten Generation für Deutschland. Wirtschaftsdienst, 100(10), 757-762.
+
+**Köhler, I. (2021).** Bazookas for recovery. The renaissance of Keynesian stimulus plans since the financial crisis. Journal of Modern European History, 19(1), 19-25.
+
+**Kovermann, J., & Wendt, M. (2019).** Tax avoidance in family firms: Evidence from large private firms. Journal of Contemporary Accounting & Economics, 15(2), 145-157.
+
+**Krishnan, M., Samandari, H., Woetzel, J., Smit, S., Pacthod, D., Pinner, D., Nauclér, T., Tai, H., Farr, A., Wu, W. & Imperato, D. (2022).** The net-zero transition: What it would cost, what it could bring. McKinsey Special Report.
+
+**Lazonick, W., & Mazzucato, M. (2013).** The risk-reward nexus in the innovation-inequality relationship: who takes the risks? Who gets the rewards?. Industrial and Corporate Change, 22(4), 1093-1128.
+
+**Lazonick, W., & O’Sullivan, M. (2000).** Maximizing shareholder value: a new ideology for corporate governance. Economy and Society, 29(1), 13-35.
+
+**Mazzucato, M. (2021).** Mission economy: A moonshot guide to changing capitalism. Penguin UK.
+OECD (2019). Public Procurement in Germany: Strategic Dimensions for Well-being and Growth, OECD Public Governance Reviews, OECD Publishing.
+
+**Röhl, C.W. (2022).** Dividendenstudie Deutschland 2022. FOM & DSW. https://www.dsw-info.de/fileadmin/Redaktion/Dokumente/PDF/Presse/Dividendenstudie_Deutschland_2022.pdf (last accessed 11/28/2022).
+
+**Seabrooke, L., & Duncan, W. (2017).** “The Governance of Global Wealth Chains.” Review of International Political Economy 24(1): 1– 29.
+
+**Sennholz-Weinhardt, B., Peters, M., & Zöllner, U. (2021).** Gewinne auf Kosten der Allgemeinheit. Finanzwende Recherche & Oxfam Germany.
+
+**Strebel, P., & Cantale, S. (2014).** Is your company addicted to value extraction?. MIT Sloan Management Review, 55(4), 95.
+
+**Streeck, W. (2010).** E Pluribus Unum? Varieties and Commonalities of Capitalism, MPIfG Discussion Paper No. 10. Max Planck Institute for the Study of Societies.
+
+**Streeck, W., & Höpner, M. (2003).** Einleitung: Alle Macht dem Markt. Alle Macht dem Markt, 11-59.
+
+**Vitols, S., (2001).** “Varieties of Corporate Governance: Comparing Germany and the UK”, Hall & Soskice, 337-360.
+
+**Tørsløv, T.R., L.S. Wier, & G. Zucman (2022).** The Missing Profits of Nations. Review of Economic Studies 0, 1–36.
+
