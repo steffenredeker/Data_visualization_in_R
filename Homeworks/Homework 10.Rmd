@@ -22,7 +22,6 @@ library(grid)
 # Boxplot^[Tip: Use the R package *scale* to adjust the values of the y-axis in the right-hand side graph] 
 ```{r}
 
-
 Africa <- gapminder[gapminder$continent == "Africa", ]
 Asia <- gapminder[gapminder$continent == "Asia", ]
 America <- gapminder[gapminder$continent == "Americas", ]
