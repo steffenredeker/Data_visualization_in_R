@@ -36,7 +36,7 @@ plot1 <- ggplot(continent_data, aes(x = continent, y = lifeExp, fill = continent
   labs(fill = "Continent") +
   theme_minimal() +
   labs(x = " ", y = "Life Expectancy") +
-  scale_fill_manual(values = c("brown", "purple", "red", "green", "blue")) +
+  scale_fill_manual(values = c("brown", "red","purple", "green", "blue")) +
   guides(fill = FALSE)
 
 plot2 <- ggplot(continent_data, aes(x = continent, y = gdpPercap, fill = continent)) +
@@ -44,7 +44,7 @@ plot2 <- ggplot(continent_data, aes(x = continent, y = gdpPercap, fill = contine
   labs(fill = "Continent") +
   theme_minimal() +
   labs(x = " ", y = "GDP per Capita") +
-  scale_fill_manual(values = c("brown", "purple", "red", "green", "blue")) +
+  scale_fill_manual(values = c("brown", "red","purple", "green", "blue")) +
   guides(fill = FALSE)
   
 common_caption <- textGrob("Figure 1: Distribution of life expectancy and GDP per capita by continent. Source: Gapminder",
