@@ -1,0 +1,98 @@
+---
+title: "Lesson 10 - Homework"
+author: "Steffen Redeker"
+date: "`r format(Sys.time(), '%d-%m-%Y')`"
+output:
+  pdf_document:
+  bookdown::pdf_document:
+subtitle: Data visualisation with R
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(gapminder)
+library(grid)
+```
+# Boxplot^[Tip: Use the R package *scale* to adjust the values of the y-axis in the right-hand side graph] 
+```{r}
+
+
+Africa <- gapminder[gapminder$continent == "Africa", ]
+Asia <- gapminder[gapminder$continent == "Asia", ]
+America <- gapminder[gapminder$continent == "Americas", ]
+Europe <- gapminder[gapminder$continent == "Europe", ]
+Oceania <- gapminder[gapminder$continent == "Oceania", ]
+
+continent_data <- gapminder %>%
+  filter(continent %in% c("Africa", "Asia", "Americas", "Europe", "Oceania"))
+
+plot1 <- ggplot(continent_data, aes(x = continent, y = lifeExp, fill = continent)) +
+  geom_boxplot() +
+  labs(fill = "Continent") +
+  theme_minimal() +
+  labs(x = " ", y = "Life Expectancy") +
+  scale_fill_manual(values = c("brown", "purple", "red", "green", "blue")) +
+  guides(fill = FALSE)
+
+plot2 <- ggplot(continent_data, aes(x = continent, y = gdpPercap, fill = continent)) +
+  geom_boxplot() +
+  labs(fill = "Continent") +
+  theme_minimal() +
+  labs(x = " ", y = "GDP per Capita") +
+  scale_fill_manual(values = c("brown", "purple", "red", "green", "blue")) +
+  guides(fill = FALSE)
+  
+common_caption <- textGrob("Figure 1: Distribution of life expectancy and GDP per capita by continent. Source: Gapminder",
+                           x = 0.5, y = 0.98, vjust = 2, hjust = 0.2,
+                           gp = gpar(fontsize = 10))
+
+library(gridExtra)
+grid.arrange(plot1, plot2, common_caption, ncol = 2)
+```
+
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(gapminder)
+library(grid)
+
+# Filter data by continents
+Africa <- gapminder[gapminder$continent == "Africa", ]
+Asia <- gapminder[gapminder$continent == "Asia", ]
+America <- gapminder[gapminder$continent == "Americas", ]
+Europe <- gapminder[gapminder$continent == "Europe", ]
+Oceania <- gapminder[gapminder$continent == "Oceania", ]
+
+# Create separate boxplots for life expectancy and GDP per capita
+continent_data <- gapminder %>%
+  filter(continent %in% c("Africa", "Asia", "Americas", "Europe", "Oceania"))
+
+plot1 <- ggplot(continent_data, aes(x = continent, y = lifeExp, fill = continent)) +
+  geom_boxplot() +
+  labs(fill = "Continent") +
+  theme_minimal() +
+  labs(x = " ", y = "Life Expectancy") +
+  scale_fill_manual(values = c("brown", "purple", "red", "green", "blue")) +
+  guides(fill = FALSE)
+
+plot2 <- ggplot(continent_data, aes(x = continent, y = gdpPercap, fill = continent)) +
+  geom_boxplot() +
+  labs(fill = "Continent") +
+  theme_minimal() +
+  labs(x = " ", y = "GDP per Capita") +
+  scale_fill_manual(values = c("brown", "purple", "red", "green", "blue")) +
+  guides(fill = FALSE)
+  
+common_caption <- textGrob("Figure 1: Distribution of life expectancy and GDP per capita by continent. Source: Gapminder",
+                           x = 0.5, y = 0.98, vjust = 1, hjust = 0.5,
+                           gp = gpar(fontface = "bold", fontsize = 12))
+
+library(gridExtra)
+grid.arrange(plot1, plot2, common_caption, ncol = 2)
