@@ -1,0 +1,30 @@
+---
+title: "Lesson 8"
+subtitle: My first R Markdown
+author: "Steffen Redeker"
+date: "`r format(Sys.time(),'%d.%m.%Y')`"
+output:
+  pdf_document: default
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
+
+library (gapminder)
+library(dplyr)
+library(ggplot2)
+library(kableExtra)
+```
+
+How many countries are in the Gapminder dataset?
+
+``` {r}
+n_countries <- length(unique(gapminder$country))
+
+How many countries are in the Gapminder? There are r n:countries countries
+
+
+

@@ -1,0 +1,40 @@
+---
+title: "Citation"
+author: "Steffen Redeker"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+  bookdown:pdf_document:
+    toc: yes
+    toc_depth: 3
+bibliography: references1.bib
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
+
+library(dplyr)
+library(ggplot2)
+library(gapminder)
+library(stargazer)
+library(bookdown)
+
+
+```
+
+# Title
+This project was developed using the package *bookdown* by @bookdown.
+
+This project was developed using the package *bookdown* by  [@bookdown].
+
+\newpage
+
+# References 
+
+
+
